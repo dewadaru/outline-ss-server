@@ -79,8 +79,8 @@ github.com/Jigsaw-Code/outline-sdk v0.0.18-0.20241106233708-faffebb12629 h1:sHi1
 github.com/Jigsaw-Code/outline-sdk v0.0.18-0.20241106233708-faffebb12629/go.mod h1:CFDKyGZA4zatKE4vMLe8TyQpZCyINOeRFbMAmYHxodw=
 github.com/Jigsaw-Code/outline-sdk/x v0.0.0-20250204151340-93ebcb07dba9 h1:GKvH8vGir6MbJmWZfh/zNlBKl5z4TxCsfDnn8eHghMk=
 github.com/Jigsaw-Code/outline-sdk/x v0.0.0-20250204151340-93ebcb07dba9/go.mod h1:aFUEz6Z/eD0NS3c3fEIX+JO2D9aIrXCmWTb1zJFlItw=
-github.com/Jigsaw-Code/outline-ss-server v1.9.0 h1:xxk2F/Xw2JBWNgLwOBaky73emcOIR3M+30xBlr3OCyk=
-github.com/Jigsaw-Code/outline-ss-server v1.9.0/go.mod h1:ArtQJ43aUTB5r1gr27E6aMj4nDOZz5vG4WY4NNKJ6ZM=
+github.com/dewadaru/outline-ss-server v1.9.0 h1:xxk2F/Xw2JBWNgLwOBaky73emcOIR3M+30xBlr3OCyk=
+github.com/dewadaru/outline-ss-server v1.9.0/go.mod h1:ArtQJ43aUTB5r1gr27E6aMj4nDOZz5vG4WY4NNKJ6ZM=
 github.com/Masterminds/glide v0.13.2/go.mod h1:STyF5vcenH/rUqTEv+/hBXlSTo7KYwg2oc2f4tzPWic=
 github.com/Masterminds/goutils v1.1.0/go.mod h1:8cTjp+g8YejhMuvIA5y2vz3BpJxksy863GQaJW2MFNU=
 github.com/Masterminds/goutils v1.1.1 h1:5nUrii3FMTL5diU80unEVvNevw1nH4+ZV4DSLVJLSYI=

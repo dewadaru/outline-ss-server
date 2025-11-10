@@ -1,7 +1,7 @@
 # Caddy Module
 
 The Caddy module provides an app and handler for Caddy Server
-(https://caddyserver.com/) allowing it to turn any Caddy Server into an Outline
+(<https://caddyserver.com/>) allowing it to turn any Caddy Server into an Outline
 Shadowsocks backend.
 
 ## Prerequisites
@@ -16,7 +16,7 @@ From this directory, build and run a custom Caddy binary with this Go module plu
 xcaddy build \
   --with github.com/iamd3vil/caddy_yaml_adapter \
   --with github.com/mholt/caddy-l4 \
-  --with github.com/Jigsaw-Code/outline-ss-server/outlinecaddy
+  --with github.com/dewadaru/outline-ss-server/outlinecaddy
 ./caddy run --config examples/simple.yaml --adapter yaml --watch
 ```
 
@@ -28,7 +28,7 @@ go run github.com/Jigsaw-Code/outline-sdk/x/examples/fetch \
   http://ipinfo.io
 ```
 
-Prometheus metrics are available on http://localhost:9091/metrics.
+Prometheus metrics are available on <http://localhost:9091/metrics>.
 
 ## Development
 

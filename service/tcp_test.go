@@ -29,11 +29,11 @@ import (
 
 	"github.com/Jigsaw-Code/outline-sdk/transport"
 	"github.com/Jigsaw-Code/outline-sdk/transport/shadowsocks"
-	logging "github.com/op/go-logging"
 	"github.com/go-gost/go-shadowsocks2/socks"
+	logging "github.com/op/go-logging"
 	"github.com/stretchr/testify/require"
 
-	"github.com/Jigsaw-Code/outline-ss-server/service/metrics"
+	"github.com/dewadaru/outline-ss-server/service/metrics"
 )
 
 func init() {

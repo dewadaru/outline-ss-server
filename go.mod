@@ -1,4 +1,6 @@
-module github.com/Jigsaw-Code/outline-ss-server
+module github.com/dewadaru/outline-ss-server
+
+go 1.25.3
 
 require (
 	github.com/Jigsaw-Code/outline-sdk v0.0.18-0.20241106233708-faffebb12629
@@ -411,5 +413,3 @@ require (
 	sigs.k8s.io/yaml v1.6.0 // indirect
 	software.sslmate.com/src/go-pkcs12 v0.6.0 // indirect
 )
-
-go 1.25.0

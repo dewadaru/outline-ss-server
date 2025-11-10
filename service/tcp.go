@@ -31,8 +31,8 @@ import (
 	"github.com/Jigsaw-Code/outline-sdk/transport/shadowsocks"
 	"github.com/go-gost/go-shadowsocks2/socks"
 
-	onet "github.com/Jigsaw-Code/outline-ss-server/net"
-	"github.com/Jigsaw-Code/outline-ss-server/service/metrics"
+	onet "github.com/dewadaru/outline-ss-server/net"
+	"github.com/dewadaru/outline-ss-server/service/metrics"
 )
 
 // TCPConnMetrics is used to report metrics on TCP connections.

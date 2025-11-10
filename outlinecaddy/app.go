@@ -23,9 +23,9 @@ import (
 	"log/slog"
 	"strings"
 
-	outline_prometheus "github.com/Jigsaw-Code/outline-ss-server/prometheus"
-	outline "github.com/Jigsaw-Code/outline-ss-server/service"
 	"github.com/caddyserver/caddy/v2"
+	outline_prometheus "github.com/dewadaru/outline-ss-server/prometheus"
+	outline "github.com/dewadaru/outline-ss-server/service"
 	"github.com/prometheus/client_golang/prometheus"
 )
 
