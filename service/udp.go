@@ -28,7 +28,7 @@ import (
 
 	"github.com/Jigsaw-Code/outline-sdk/transport"
 	"github.com/Jigsaw-Code/outline-sdk/transport/shadowsocks"
-	"github.com/shadowsocks/go-shadowsocks2/socks"
+	"github.com/go-gost/go-shadowsocks2/socks"
 
 	"github.com/Jigsaw-Code/outline-ss-server/internal/slicepool"
 	onet "github.com/Jigsaw-Code/outline-ss-server/net"

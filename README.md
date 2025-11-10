@@ -62,7 +62,7 @@ prometheus --config.file=cmd/outline-ss-server/prometheus_example.yml
 ### Run the SOCKS-to-Shadowsocks client
 On Terminal 3, start the SS client:
 ```
-go run github.com/shadowsocks/go-shadowsocks2@latest -c ss://chacha20-ietf-poly1305:Secret0@:9000 -verbose  -socks localhost:1080
+go run github.com/go-gost/go-shadowsocks2@latest -c ss://chacha20-ietf-poly1305:Secret0@:9000 -verbose  -socks localhost:1080
 ```
 
 ### Fetch a page over Shadowsocks
@@ -93,7 +93,7 @@ go run ./cmd/outline-ss-server -config cmd/outline-ss-server/config_example.yml
 
 Start the SS tunnel to redirect port 8000 -> localhost:5201 via the proxy on 9000:
 ```
-go run github.com/shadowsocks/go-shadowsocks2@latest -c ss://chacha20-ietf-poly1305:Secret0@:9000 -tcptun ":8000=localhost:5201" -udptun ":8000=localhost:5201" -verbose
+go run github.com/go-gost/go-shadowsocks2@latest -c ss://chacha20-ietf-poly1305:Secret0@:9000 -tcptun ":8000=localhost:5201" -udptun ":8000=localhost:5201" -verbose
 ```
 
 Test TCP upload (client -> server):
@@ -120,7 +120,7 @@ iperf3 -c localhost -p 8000 --udp -b 0 --reverse
 
 Run the commands above, but start the SS server with
 ```
-go run github.com/shadowsocks/go-shadowsocks2 -s ss://chacha20-ietf-poly1305:Secret0@:9000 -verbose
+go run github.com/go-gost/go-shadowsocks2 -s ss://chacha20-ietf-poly1305:Secret0@:9000 -verbose
 ```
 
 
